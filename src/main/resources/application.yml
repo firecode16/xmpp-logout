@@ -1,0 +1,12 @@
+server:
+  address: 192.0.0.0
+  port: 8082
+  servlet:
+    context-path: /api
+
+# REST API Plugin provides the ability to manage Openfire by sending an REST/HTTP request to the Server.
+rest-api-provider-openfire: http://15.81.110.110:9090/plugins/restapi/v1
+user-sessions: /sessions/
+
+# Secret key auth - REST API authentication.
+secret-key: Ky8GWOsHwkf9VD0E
